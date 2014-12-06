@@ -21,7 +21,7 @@ ExpiresByType font/ttf      "access plus 1 month"
 ExpiresByType font/woff     "access plus 1 month"
 ExpiresByType image/svg+xml "access plus 1 month"
 </IfModule>
-
+# CSS
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)(\.gz)?$">
 Header unset ETag
 FileETag None
